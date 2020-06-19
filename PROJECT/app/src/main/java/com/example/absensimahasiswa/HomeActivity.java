@@ -25,6 +25,7 @@ public class HomeActivity extends AppCompatActivity {
         matkulD = findViewById(R.id.buttonD);
         Help = findViewById(R.id.button10);
 
+
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,7 +44,7 @@ public class HomeActivity extends AppCompatActivity {
         matkulA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intToA = new Intent(HomeActivity.this, mopro.class);
+                Intent intToA = new Intent(HomeActivity.this, A.class);
                 startActivity(intToA);
             }
         });

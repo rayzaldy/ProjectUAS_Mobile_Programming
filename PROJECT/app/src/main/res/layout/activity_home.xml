@@ -56,12 +56,13 @@
         app:layout_constraintVertical_bias="0.136" />
 
     <Button
+        android:gravity="center|bottom"
         android:id="@+id/buttonA"
         android:layout_width="138dp"
         android:layout_height="132dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:background="@drawable/ic_camera_black_24dp"
+        android:background="@drawable/ic_assignment_black_24dp"
         android:text="Mopro"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.187"
@@ -70,11 +71,13 @@
         app:layout_constraintVertical_bias="0.331" />
 
     <Button
+        android:gravity="center|bottom"
         android:id="@+id/buttonC"
         android:layout_width="138dp"
         android:layout_height="132dp"
-        android:background="@drawable/ic_camera_black_24dp"
+        android:background="@drawable/ic_assignment_black_24dp"
         android:text="Robotik"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.186"
@@ -83,11 +86,13 @@
         app:layout_constraintVertical_bias="0.632" />
 
     <Button
+        android:gravity="center|bottom"
         android:id="@+id/buttonB"
         android:layout_width="138dp"
         android:layout_height="132dp"
-        android:background="@drawable/ic_camera_black_24dp"
+        android:background="@drawable/ic_assignment_black_24dp"
         android:text="ML"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.82"
@@ -108,11 +113,13 @@
         app:layout_constraintVertical_bias="0.007" />
 
     <Button
+        android:gravity="center|bottom"
         android:id="@+id/buttonD"
         android:layout_width="138dp"
         android:layout_height="132dp"
-        android:background="@drawable/ic_camera_black_24dp"
-        android:text="EH"
+        android:background="@drawable/ic_assignment_black_24dp"
+        android:text="EthicalHacking"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.82"
